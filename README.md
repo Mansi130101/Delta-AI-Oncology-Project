@@ -16,7 +16,7 @@ The project is about: CANCER DETECTION
 
 ### Setup instructions:
 Create and activate a virtual environment and install all reqred libraries:
-- python3 -m venv venv
+- python3 -m venv venv 
 - .\venv\Scripts\Activate.ps1
 - pip install -r requirements.txt
 
