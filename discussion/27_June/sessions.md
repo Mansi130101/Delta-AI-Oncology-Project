@@ -22,10 +22,14 @@
 - download training dataset opensource/kaggle
 - identify models to finetune on from huggingface
 - working on baseline code base:
-    takes dataset
-    breaks into train and test split
-    train dataset finetune pretrained model
-    infer results using the test set
+    - data folder: takes dataset
+    - process.py: breaks into train and test split (80:20)
+    - finetune.py: train dataset finetune pretrained model for classification
+    - infer.py: inference results using the test set
+    - suggestion.py: llm call to provide guidance on the result
+    - prompt.md: prompt instruction for suggestion.py
+        - health, exercise, medication, treatment... 
+    - main.py: chatbot/website (streamlit library)
 
 
 # Resources:

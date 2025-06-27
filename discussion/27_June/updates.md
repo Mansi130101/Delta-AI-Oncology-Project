@@ -9,8 +9,4 @@ N/A
 N/A
 
 # Next Steps:
-- select category of problem
-- download training dataset opensource/kaggle
-- identify models to finetune on from huggingface
-- working on code base
-
+- present in sessions.md
